@@ -1,0 +1,141 @@
+
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #070927;
+    text-align: center;
+
+
+}
+body *{
+    color: #D8E9E7;
+}
+.sup_photo{
+    width: 240px;
+    height: 270px;
+
+    box-sizing: border-box;
+    margin: auto;
+    background: #110559;
+    border-radius: 30px;
+    filter: blur(20px);
+}
+
+object{
+    width: 200px;
+    position: absolute;
+    z-index: 200;
+    margin: 20px -100px;
+}
+
+h1{
+    margin: 30px 0px 10px 0px;
+    font-size: 50px;
+}
+
+.sup_mphoto{
+    padding: 0px ;
+    margin: 0px;
+}
+
+.sup_name{
+    margin: -40px 0px 20px 0px;
+   z-index: 200;
+   position: relative;
+
+}
+
+
+
+.mid{
+    margin: auto;
+
+}
+.mid img{
+    display: inline-block;
+    height: 55px;
+    width: 55px;
+    background-color: #110559;
+    border-radius: 50px;
+    margin: 40px 30px 10px 30px;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 10px #110559 ;
+    transition: all 1s;
+}
+.mid img:hover{
+    box-shadow: 0px 0px 20px 1px #d8e9e750 ;
+    background-color: #d8e9e72a;
+}
+
+.mid_1{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png") no-repeat;
+}
+
+.link{
+    background-color: #21118C;
+    padding: 10px 30px;
+    width: 600px;
+    border-radius: 20px;
+    margin: 30px auto;
+    box-shadow: 0px 0px 10px 10px #110559 ;
+    box-sizing: border-box;
+    text-align: start;
+    transition: width 1s;
+    transition: box-shadow 1s;
+}
+
+.link{
+    cursor: pointer;
+}
+
+.link:hover{
+    border-left: 3px solid #D8E9E7;
+    box-shadow: 0px 0px 20px 1px #d8e9e750 ;
+}
+
+.link>h3{
+    margin: 0px;
+}
+
+
+.credits *{
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+}
+
+.credits{
+    margin: 100px 0px 0px 0px;
+    background-color: #07092700;
+}
+
+.credits_blur{
+    background: #110559;
+    border-radius: 30px;
+    filter: blur(10px);
+    position: absolute;
+    width: 700px;
+    height: 60px;
+    margin: 0px -70px;
+    z-index: 0;
+}
+@media (max-width: 620px) {
+    .link{
+        width: 300px;
+    }
+
+    .mid img{
+        height: 55px;
+        width: 55px;
+        margin: 40px 10px 10px 10px;
+    }
+
+    .credits_blur{
+
+        width: 350px;
+        height: 150px;
+        margin: 0px -10px;
+
+    }
+}
